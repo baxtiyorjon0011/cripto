@@ -1,0 +1,59 @@
+.hero-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 217px;
+    h1 {
+        width: 522px;
+        color: #FFF;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 31px;
+    }
+
+    button {
+        padding: 31px 50px;
+        color: #FFF;
+        text-align: center;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 50px;
+        background: #23263C;
+    }
+
+    .hero-box-2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-2{
+        display: flex;
+        .hero-btn{
+            color: #FFF;
+            margin-left: 22px;
+            text-align: center;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+            border: 3px solid #23263C;
+            background: none;
+        }
+    }
+}
+@media only screen and(max-width:600px){
+    .hero-box{
+        h1{
+            width: 261px;
+            font-size: 30px;
+        }
+    }
+}

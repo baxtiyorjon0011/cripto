@@ -1,0 +1,35 @@
+.info {
+    h4 {
+        color: #FFF;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    a {
+        color: #FFF;
+        font-size: 27px;
+        padding: 46px 0 45px 68px;
+        gap: 0 138px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+        opacity: 0.5;
+        gap: 0 138px;
+    }
+
+    .info-2 {
+
+        width: 1065px;
+        height: 125px;
+        border: 1px solid #5BD2BD;
+        background: #23263C;
+    }
+}
